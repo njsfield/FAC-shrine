@@ -21,11 +21,11 @@ var strokeObj = {
         '25' : {'50': 'grey', '58': 'white', '59': 'darkgreen', '65': 'white', '114': 'grey'}, // flower stem
         '26' : {'50': 'grey', '53': 'white', '63': 'black', '65': 'white', '114': 'grey'}, // soil
         '27' : {'51': 'grey', '64': 'white', '114': 'grey'},
-        '28' : {'52': 'grey', '58': 'black', '60': 'grey', '62': 'lightgrey', '63': 'black', '114': 'grey'}, // bulb screw
-        '29' : {'52': 'grey', '58': 'black', '60': 'grey', '62': 'lightgrey', '63': 'black', '114': 'grey'},
-        '30' : {'52': 'grey', '58': 'black', '60': 'grey', '62': 'lightgrey', '63': 'black', '114': 'grey'},
-        '31' : {'52': 'grey', '58': 'black', '60': 'grey', '62': 'lightgrey', '63': 'black', '114': 'grey'},
-        '32' : {'53': 'grey', '59': 'black', '60': 'grey', '61': 'lightgrey', '114': 'grey'},
+        '28' : {'52': 'grey', '58': 'black', '60': 'grey', '62': 'grey', '63': 'black', '114': 'grey'}, // bulb screw
+        '29' : {'52': 'grey', '53': 'lightgrey', '59': 'black', '60': 'grey', '63': 'lightgrey', '114': 'grey'},
+        '30' : {'52': 'grey', '58': 'black', '60': 'grey', '62': 'grey', '63': 'black', '114': 'grey'},
+        '31' : {'52': 'grey', '53': 'lightgrey', '59': 'black', '60': 'grey', '63': 'lightgrey', '114': 'grey'},
+        '32' : {'53': 'grey', '59': 'black', '61': 'grey', '114': 'grey'},
         '33' : {'55': 'grey', '60': 'black', '114': 'grey'}, // screw end
         'default' : {'114': 'grey'} //default background   
 }
