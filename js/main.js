@@ -37,7 +37,6 @@ var spanStyleFunc = function(t, props){
 
 
 //4. Map stroke styles to text
-
 string = string.map(function(s,i) {
     return spanStyleFunc(s, strokeObj[i] || strokeObj['default']);
 })
