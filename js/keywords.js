@@ -15,7 +15,7 @@ var keywords = [
     'css',
     'databases',
     'cirriculum',
-    'UX',
+    'ux',
     'nonprofit',
     'ethos',
     'dwyl',
