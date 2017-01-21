@@ -43,6 +43,9 @@ pre {
 .grey {
     color: #333333;
 }
+.lightgrey {
+    color: #888888;
+}
 .darkgreen {
     color: #388E38;
 }
@@ -59,6 +62,7 @@ pre {
 .darkgreen,
 .midgreen,
 .leafgreen,
+.lightgrey,
 .white {
     -webkit-animation-name: glow-in;
     animation-name: glow-in;
