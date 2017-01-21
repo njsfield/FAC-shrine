@@ -1,5 +1,7 @@
+// (Shorthand)
 var rand = Math.random;
 var floor = Math.floor;
+
 
 // 1. Generate string keywords
 var string = Array(800)
@@ -10,10 +12,12 @@ var string = Array(800)
             .substring(0,5244);
 
 
-//3. Slice it in X, Y blocks
+
+//2. Slice it in X, Y blocks
 string = string.match(/.{1,114}/g)
 
-//5. Use function to morph text and stroke styles into span strings
+
+//3. Use function to morph text and stroke styles into span strings
 var spanStyleFunc = function(t, props){
 
     var openSpan  = '<span class="null">';
@@ -31,11 +35,13 @@ var spanStyleFunc = function(t, props){
     return resultStr;
 }
 
+
 //4. Map stroke styles to text
 
 string = string.map(function(s,i) {
     return spanStyleFunc(s, strokeObj[i] || strokeObj['default']);
 })
+
 
 // 5. Join the string and render
 document.querySelector('code').innerHTML = string.join('\n');
